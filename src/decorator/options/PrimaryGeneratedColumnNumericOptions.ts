@@ -31,4 +31,11 @@ export interface PrimaryGeneratedColumnNumericOptions {
      */
     unsigned?: boolean;
 
+    /**
+     * Indicates if column value is updated by "save" operation.
+     * If false, you'll be able to write this value only when you first time insert the object.
+     * Default value is "true".
+     */
+    update?: boolean;
+
 }
